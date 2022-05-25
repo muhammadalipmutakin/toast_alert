@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/pesantoast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="146dp"
+        android:text="Tampilkan Toast" />
+
+    <TextView
+        android:id="@+id/seleksi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:text="AlatTulis" />
+
+    <Button
+        android:id="@+id/tampillist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seleksi"
+        android:layout_marginTop="28dp"
+        android:text="Tampilkan List" />
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pesantoast"
+        android:text="Keluar" />
+
+</RelativeLayout>
